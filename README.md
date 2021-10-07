@@ -2,13 +2,13 @@
 
 ## Case Studies on Contentiousness in Abortion, Climate Change, and Gun Control
 
-Download the complete data, including all features, here: 
-[Abortion](https://drive.google.com/file/d/1InQZio5JupGtkRsddKy-Lqa-h-4ytpkX/view?usp=sharing), 
-[Climate Change](https://drive.google.com/file/d/1FinlbwTrBtCRkSEXMGg2NOrm7rDWB_g-/view?usp=sharing), 
-[Gun Control](https://drive.google.com/file/d/1IdpeRXNKH-C6Kc0lnpPqyacbLJL-05e6/view?usp=sharing)
+Download the complete data, including all features, [here](https://drive.google.com/drive/folders/1xbCLYsCouM1xQ44riU3BjTl-oAtOnRHe?usp=sharing)
 
 Then, download the discourse model [here](https://drive.google.com/file/d/19nBGPPnqaUNN0gGFW1dgYZ_N1EXjZhXB/view?usp=sharing)
 
-To get the BERT representations, use `compute_bert_representations.py`, then use `controversy_pipeline.py` to
+To get the BERT representations, use `compute_bert_representations.py`, then use `contentiousness_pipeline.py` to
 perform the experiments.
 
+Example: `python contentiousness_pipeline.py --topic abortion --data keyword_data/abortion.pickle`
+
+Requires `python>=3.8`.
