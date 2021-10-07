@@ -7,7 +7,8 @@ from collections import defaultdict
 import pandas as pd
 import praw
 
-reddit = praw.Reddit(client_id='KRfOuF8F0w-oGQ', client_secret='CWGGfwGX4zyrrJAkJWG5GeGmqMw', user_agent='tenure_grabber')
+# The info here must be replacedw with your own Reddit API info.
+reddit = praw.Reddit(client_id='REPLACE ME', client_secret='REPLACE ME', user_agent='REPLACE ME')
 
 if len(sys.argv) != 2:
     print("Usage: get_post_histories.py data_file")
